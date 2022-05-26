@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "build":[
+        {
+            "src": "index.js",
+            "use": "node index.js"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+
+}

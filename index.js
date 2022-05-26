@@ -16,7 +16,7 @@ dotenv.config(); //2°
 conectarDB(); //3°
 
 //cors config
-const whiteList = [process.env.FRONTEND_URL, "https://spontaneous-meringue-e8cd88.netlify.app/"];
+const whiteList = [process.env.FRONTEND_URL, "https://spontaneous-meringue-e8cd88.netlify.app"];
 const corsOptions = {
     origin: function(origin, callback){
         if(whiteList.indexOf(origin) !== -1 || !origin ){
